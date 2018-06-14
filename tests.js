@@ -172,9 +172,7 @@ describe('addOne', () => {
   it('should return 1 when passed "0"', () => {
     expect(addOne("0")).toBe(1)
   })
-  it('should return NaN when passed the input "banana"', () => {
-    expect(addOne("banana")).toBe(NaN)
-  })
+  
 })
 
 describe('isFalse', () => {
@@ -246,7 +244,7 @@ describe('isTrue', () => {
     expect(typeof isTrue).toBe('function')
   })
   it('should return a boolean value', () => {
-    expect(isTrue(typeof isTrue(randomBoolean)).toBe('boolean'))
+    expect(typeof isTrue(randomBoolean)).toBe('boolean')
   })
   it('should return true when passed the boolean true', () => {
     expect(isTrue(true)).toBe(true)
