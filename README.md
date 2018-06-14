@@ -1,20 +1,20 @@
-First Ten Functions
+Ten Functions
 =================
 
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
-
-**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
-
-Find out more [about Glitch](https://glitch.com/about).
+Click `Show` in the header to run the app live. Updates to your code will instantly deploy and update live.
 
 
-Your Project
+Ten Functions
 ------------
 
-### ← README.md
-
-That's this file, where you can tell people what your cool website does and how you built it.
-
+- Programing fundamentals in JavaScript
+    - Working with values, variables, and data types
+    - Using comparrison operators
+    - Working with boolean operators
+    - Working with JS internal functions to make  and perform actions.
+    - Writing functions that take in inputs, process, and return outputs.
+    
+    
 ### ← index.html
 
 Where you'll write the content of your website. 
@@ -27,7 +27,8 @@ CSS files add styling rules to your content.
 
 ## Testing out your functions yourself
 - The automated tests are
-- If you define a function called sa
+- If you need to console.log the output of your functions:
+- do `console.log(isTrue(input));`
 
 ## Hints
 
