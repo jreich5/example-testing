@@ -91,20 +91,21 @@
 
 8. Define a function named `or` that takes in two input arguments. The output returned should be the result of an `or` operation on both inputs.
         
-        or(true, true)
-        or(true, false)
-        or(false, true)
-        or(false, false)
-        or(true, (false || false))
+        or(true, true)                    // true
+        or(true, false)                   // true
+        or(false, true)                   // true
+        or(false, false)                  // false
+        or("hello", "world")              // "hello" (this behavior is non-obvious, research more!)
       
         
 
 9. Define a function named `and` that takes in two input arguments and returns the result of a logical `and` operation of both inputs.
   
-        and(true, true)
-        and(true, false)
-        and(false, true)
-        and(false, false)
+        and(true, true)                    // true
+        and(true, false)                   // false
+        and(false, true)                   // false
+        and(false, false)                  // false
+        and("hello", "world")              // "world" (this behavior is non-obvious, research more)
 
 
 10. Define a function named `concat` that takes in two input arguments. If both arguments are strings, then return the concatenated result. If two numbers are provided, then return the string concatenation of each set of numerals.
