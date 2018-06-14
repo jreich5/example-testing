@@ -5,6 +5,8 @@
 1. Remix this project on [Glitch](https://ten-functions.glitch.me)(https://github.com/ryanorsinger/ten-functions") so you have your own copy.
 2. Read the exercise prompts listed below
 3. Define your functions that solve the prompts inside of `solutions.js`.
+4. Use feedback to improve responses
+5. Submit issues and patches to the <a href="https://github.com/ryanorsinger/ten-functions/issues">Ten Functions project</a>
 
 
 ## The "Ten Functions" Exercises 👟
@@ -118,6 +120,7 @@
 - `results.html` shows the ouptut from automated test data
 - `solutions.js` is where you will write your function definitions that solve the exercises below
 - `tests.js` is the suite of automated tests that call your functions in `solutions.js` with different inputs.
+
 
 ## Hints
 
