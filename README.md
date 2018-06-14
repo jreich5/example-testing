@@ -84,9 +84,12 @@ Click `Show` in the header to run the app live. Updates to your code will instan
         isEqual(4, -5)                        // false
         isEqual("java", "javascript")         // false
 
-8. Define a function named `and` that takes in two input arguments and returns the result of 
+8. Define a function named `or`
 
-9. Define a function named `or`
+ Define a function named `and` that takes in two input arguments and returns the result of a logical `and` operation of both inputs.
+  
+        and(true, true)
+
 
 10. Define a function named `concat` that takes in two input arguments. If both arguments are strings, then return the concatenated result. If two numbers are provided, then return the string concatenation of each set of numerals.
         
