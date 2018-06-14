@@ -59,12 +59,39 @@ Click `Show` in the header to run the app live. Updates to your code will instan
         isEven(2)                   // true
         isEven(-8)                  // true
         isEven(0)                   // true
-        isEven("44")                // true
-        isEven(1)                   // true
-        isEven("-3)
+        isEven("42")                // true
+        isEven(1)                   // false
+        isEven("-3")                // false
         isEven(false)               // false
         isEven("banana")            // false
 
+6. Define a function named `isIdentical` that takes in two input arguments. If each input is equal both in data type and in value, then return `true`. If the values are not the same data type or not the same value, return `false`.
+
+        isIdentical(3, 3)                     // true
+        isIdentical(false, false)             // true
+        isIdentical("hello", "hello")         // true
+        isIdentical(3, 3.0)                   // true
+        isIdentical(undefined, undefined)     // true
+        isIdentical(2, "2")                   // false
+        isIdentical("javascript", "java")     // false
+
+7. Define a function named `isEqual` that takes in two input arguments. If each argument is equal only in value, then return true. Otherwise return false.
+  
+        isEqual(3, "3")                       // true
+        isEqual("abc123", "abc123")           // true
+        isEqual(true, 1)                      // true
+        isEqual(0, false)                     // true
+        isEqual(4, -5)                        // false
+        isEqual("java", "javascript")        // false
+
+8. Define a function named `and`
+
+9. Define a function named `or`
+
+10. Define a function named `concat` that takes in two input arguments. If both arguments are strings, then return the concatenated result. If two numbers are provided, then return the string concatenation of each set of numerals.
+        concat
+
+        
 ## Hints
 
 Consider this example problem.
