@@ -20,19 +20,3 @@
  * and
  * concat
  */
-
-function isTrue(a) {
-  return a === true;
-}
-
-function isFalse(a) {
-  return a === false;
-}  
-
-function not(a) {
-  return !a;
-}
-
-function addOne(input) {
-  return parseFloat(input) + 1;
-}
