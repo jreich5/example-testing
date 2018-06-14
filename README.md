@@ -5,7 +5,7 @@ Click `Show` in the header to run the app live. Updates to your code will instan
   
 
 ## The "Ten Functions" Exercises 👟
-0. The comments to the right of the function call example demonstrate the output of the function's operation on the provided input(s). Add your function definitions to `solutions.js`. Refresh `index.html` to run automated tests for feedback on your approach.
+0. The comments to the right of the function call example demonstrate the output of the function's operation on the provided input(s). Add your function definitions to `solutions.js`. Refresh `results.html` to run automated tests for feedback on your solutions.
 
 1. Define a function named `isTrue` that takes in any input and returns true if the input provided is exactly equal to `true` in value and `boolean` in data type.
         
