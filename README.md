@@ -1,8 +1,11 @@
 ➢ Ten Functions 
 =================
 
-Click `Show` in the header to run the app live. Updates to your code will instantly deploy and update live.
-  
+## Getting Started
+1. Remix this project on [Glitch](https://ten-functions.glitch.me)(https://github.com/ryanorsinger/ten-functions") so you have your own copy.
+2. Read the exercise prompts listed below
+3. Define your functions that solve the prompts inside of `solutions.js`.
+
 
 ## The "Ten Functions" Exercises 👟
 0. The comments to the right of the function call example demonstrate the output of the function's operation on the provided input(s). Add your function definitions to `solutions.js`. Refresh `results.html` to run automated tests for feedback on your solutions.
@@ -110,6 +113,12 @@ Click `Show` in the header to run the app live. Updates to your code will instan
         concat(4, 2)                        // "42"
         concat(true, true)                  // "truetrue"
         
+## Files in this project
+- `index.html` is the welcome page
+- `results.html` shows the ouptut from automated test data
+- `solutions.js` is where you will write your function definitions that solve the exercises below
+- `tests.js` is the suite of automated tests that call your functions in `solutions.js` with different inputs.
+
 ## Hints
 
 Consider this example problem.
