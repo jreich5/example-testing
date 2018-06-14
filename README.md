@@ -27,11 +27,7 @@ CSS files add styling rules to your content.
 
 If you're feeling fancy you can add interactivity to your site with JavaScript.
 
-### ← assets
-
-Drag in `assets`, like images or music, to add them to your project
-
-Made by [Fog Creek](https://fogcreek.com/)
+Made by [Ryan Orsinger](https://ryanorsinger.glitch.me/)
 -------------------
 
 \ ゜o゜)ノ
