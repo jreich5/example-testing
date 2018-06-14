@@ -19,3 +19,8 @@ pre {
   display: inline;
   font-size: 1.23em;
 }
+
+#home {
+  display: fixed;
+  
+}

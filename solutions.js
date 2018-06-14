@@ -8,5 +8,3 @@
  * here. If you do, the automated tests will not be able to see your functions.
  * If you don't know what an iffe is, don't worry about it :)
  */
-
-
