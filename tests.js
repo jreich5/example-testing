@@ -24,16 +24,17 @@ describe('isTrue', () => {
   })
   it('should return a boolean value', () => {
     expect(isTrue(typeof isTrue(randomBoolean)).toBe('boolean'))
-    expect(isTrue(typeof isTrue(false)).toBe('boolean'))
-    expect(isTrue(typeof isTrue(randomNumber)).toBe('boolean'))
   })
   it('should return true when passed the boolean true', () => {
-    expect(isTrue(true)).toBe(true);
+    expect(isTrue(true)).toBe(true)
   })
   it('should return false when passed the boolean false as the input', () => {
-    
+    expect(isTrue(false)).toBe(false)
   })
-  it('should return false when passed the boolean false as the input', () => {
-  
+  it('should return false when passed a number as the input', () => {
+    expect(isTrue(randomNumber)).toBe(false);
+  })
+  it('should return false when passed a string as input', () => {
+    expect(isTrue("hello world")).toBe(false);
   })
 })
