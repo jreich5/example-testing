@@ -91,7 +91,7 @@ Click `Show` in the header to run the app live. Updates to your code will instan
         or(false, true)
         or(false, false)
         or(true, (false || false))
-        or(
+      
         
 
 9. Define a function named `and` that takes in two input arguments and returns the result of a logical `and` operation of both inputs.
