@@ -2,33 +2,52 @@ Ten Functions
 =================
 
 Click `Show` in the header to run the app live. Updates to your code will instantly deploy and update live.
+  
 
+## The "Ten Functions" Exercises
+0. The comments to the right of the function call demonstrate the output value of the function's operation on the provided input.
+1. Define a function named `isTrue` that takes in any input and returns true if the input provided is exactly equal to `true` in value and `boolean` in data type.
+        
+        isTrue(true)             // true
+        isTrue(false)            // false
+        isTrue(0)                // false
+        isTrue(null)             // false
+        isTrue("true")           // false
+        isTrue("Banana")         // false
+        isTrue([1, 2])           // false
 
-Ten Functions
-------------
+2. Define a function named `isFalse` that takes in a value and returns a boolean if the argument provided is a boolean value or not.
+        
+        isFalse(false)             // true
+        isFalse(true)              // false
+        isFalse(0)                 // false
+        isFalse(null)              // false
+        isFalse("")                // false
+        isFalse("Banana")          // false
+        isFalse([1, 2])            // false
 
-- Programing fundamentals in JavaScript
-    - Working with values, variables, and data types
-    - Using comparrison operators
-    - Working with boolean operators
-    - Working with JS internal functions to make  and perform actions.
-    - Writing functions that take in inputs, process, and return outputs.
+3. Define a function named `not` that takes in any input and returns the boolean opposite of the provided input.
+        
+        not(true)                   // false
+        not(false)                  // false
+        not(0)                      // true
+        not("something")            // false
+        not("")                     // true
+        not(null)                   // true
+        not(undefined)              // true
+        not(Infinity)               // false
+        not(123)                    // false
     
-    
-### ← index.html
+4. Define a function named `and` that takes in two inputs and returns the value of both 
 
-Where you'll write the content of your website. 
-
-### ← style.css
-
-CSS files add styling rules to your content.
-
-### ← script.js
-
-## Testing out your functions yourself
-- The automated tests are
-- If you need to console.log the output of your functions:
-- do `console.log(isTrue(input));`
+        
+        isBoolean(true, true)             // true
+        isBoolean(false, true)            // true
+        isBoolean()                // false
+        isBoolean(null)             // false
+        isBoolean("")               // false
+        isBoolean("Bob")            // false
+        isBoolean([1, 2])           // false
 
 ## Hints
 
