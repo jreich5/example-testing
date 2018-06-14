@@ -14,3 +14,8 @@ h1 {
 #exercises {
   margin-top: 2em;
 }
+
+pre {
+  display: inline;
+  font-size: 1.23em;
+}
