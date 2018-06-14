@@ -21,6 +21,8 @@ pre {
 }
 
 #home {
-  display: fixed;
-  
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: .5em;
 }

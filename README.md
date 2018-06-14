@@ -151,9 +151,9 @@ function isBoolean(input) {
 
 
 ## About
-- Proudly hosted and edited on <a href="https://glitch.com">Glitch!</a>
+- Proudly hosted and edited on <a href="https://glitch.com">Glitch!</a> 🎏
 - Testing framework: <a href="https://github.com/jasmine/jasmine">Jasmine</a>
-- Made by [Ryan Orsinger](https://ryanorsinger.glitch.me/)
+- Made by [Ryan Orsinger](https://ryanorsinger.glitch.me/) 
 -------------------
 
 \ ゜o゜)ノ
