@@ -27,15 +27,3 @@ pre {
   margin: .5em;
 }
 
-#remix {
-position: relative;
-top: 50%;
-transform: translateY(-50%); 
-}
-
-#remix:hover {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
-    border-color: #212121;
-    -ms-transform: translateY(-3px);
-    transform: translateY(-3px);
-}
