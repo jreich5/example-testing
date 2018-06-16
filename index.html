@@ -17,7 +17,7 @@
       Get Started!
     </h2>
     <ol>
-      <li>Click the "Remix on Glitch" button ↗️</li>
+      <li>Click the "Remix on Glitch" button</li>
       <li>Follow the directions in README.md, click </li>
       <img src="https://cdn.glitch.com/02073022-2df9-4d98-be8d-abf50f7837e5%2Fsmall-function.png?1529106496333" alt="generic-function-diagram">  
       <li>
@@ -26,6 +26,28 @@
         </h2>
       </li>
     </ol>
+      
+      <a href="./index.html" id="home">Read the README</a>
+    <h2>
+      Test results
+    </h2>
+    <ul>
+      <li>This shows results of automated accuracy tests called <a href="https://en.wikipedia.org/wiki/Unit_testing">unit tests</a> run from <pre>tests.js</pre></li>
+      <li>Test output below shows the results of calling functions defined in <pre>solutions.js</pre></li> with various inputs.
+      <li>Function definitions that pass test assertions turn red tests green, indicating their correctness</li>
+      <li>See "Spec List" for overview data and "Failures" for more detailed test output</li>  
+    </ul>
+      
+    <!-- Jasmine (The test runner) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.1.0/jasmine.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.1.0/jasmine-html.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.1.0/boot.js"></script>          
+    
+    <!-- automated tests (the test file) -->
+    <script src="./tests.js" type="text/javascript"></script>
+
+    <!-- Your solutions to the  -->
+    <script src="./solutions.js" type="text/javascript" ></script>
     
     <script>
       "use strict";
