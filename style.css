@@ -56,3 +56,7 @@ body > div > div.jasmine-alert > span.jasmine-menu.jasmine-bar.jasmine-spec-list
   margin: 2em;
   text-align: center;
 }
+
+article > pre {
+  display: block;
+}
