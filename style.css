@@ -60,3 +60,7 @@ body > div > div.jasmine-alert > span.jasmine-menu.jasmine-bar.jasmine-spec-list
 article > pre {
   display: block;
 }
+
+p {
+  text-align: center;
+}
