@@ -1,6 +1,6 @@
 "use strict";
 
-// Add functionality for updating offsite co
+// Add functionality for updating count of number of remixes
 const projectURL
 document.querySelector("#remix").addEventListener("click", function(e) {
   // increment the remix counter
