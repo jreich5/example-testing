@@ -14,3 +14,7 @@ let editSolutionsUrl = "https://glitch.com/edit/#!/"+ projectName + "?path=solut
 document.getElementById("solutions-edit-link").href = editSolutionsUrl;
 
 // Add tracker to count number of remixes/forks of the project
+document.querySelector("#remix").addEventListener('click', function(event) {
+  console.log("remix button clicked");
+  // wire up to send a request to a firebase or local endpoint that tracks number of clicks and userAgents
+});
