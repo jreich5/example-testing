@@ -20,7 +20,3 @@
  * and
  * concat
  */
-
-function isEven(n) {
-  return parseFloat(n) % 2 === n;
-}
