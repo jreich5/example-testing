@@ -22,6 +22,5 @@
  */
 
 function isEven(n) {
-  
-  return n % 2 === n;
+  return parseFloat(n) % 2 === n;
 }
