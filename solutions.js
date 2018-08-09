@@ -21,3 +21,7 @@
  * concat
  */
 
+function isEven(n) {
+  
+  return n % 2 === n;
+}
