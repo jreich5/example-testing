@@ -6,8 +6,10 @@
 
 ## Getting Started
 1. Open up IntelliJ. Choose New -> Project from Version Control -> Git -> then paste in `git@github.com:CodeupClassroom/ten-functions.git` into the URL.
+2. Create a new git branch called `firstName-lastName`. Command line way is `git checkout -b firstName-lastName`. Or in IntelliJ, use the branch selection in the bottom-right corner to create a new branch.
 2. Read the exercise prompts listed below
 3. Define your functions that solve the prompts inside of `solutions.js`.
+3. Commit you work and then push your branch up to GitHub. `git push -u origin firstName-lastName`.
 4. Use feedback to improve responses
 5. Submit issues and patches to the <a href="https://github.com/ryanorsinger/ten-functions/issues">Ten Functions project</a>
 
