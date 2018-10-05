@@ -5,7 +5,7 @@
 
 
 ## Getting Started
-1. Open up IntelliJ. Choose New -> Project from Version Control -> Git -> then paste in "git@github.com:CodeupClassroom/ten-functions.git" into the URL.
+1. Open up IntelliJ. Choose New -> Project from Version Control -> Git -> then paste in `git@github.com:CodeupClassroom/ten-functions.git` into the URL.
 2. Read the exercise prompts listed below
 3. Define your functions that solve the prompts inside of `solutions.js`.
 4. Use feedback to improve responses
