@@ -1,7 +1,9 @@
 "use strict";
 
-const randomBoolean = Boolean(Math.round(Math.random()))
-const randomNumber = Math.ceil(Math.random() * 100)
+// can include normal JS code in file containing unit tests
+// generating random values will be helpful in testing various functions
+const randomBoolean = Boolean(Math.round(Math.random()));
+const randomNumber = Math.ceil(Math.random() * 100);
 
 describe('concat', () => {
   it('should be a defined function', () => {
