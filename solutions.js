@@ -1,10 +1,5 @@
 "use strict";
 
-
-// consider the following error message
-
-
-
 // consider the following function that is meant to test other functions...
 function assert(callback, specDescription, input, expectedOutput) {
 
